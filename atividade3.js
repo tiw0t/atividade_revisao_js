@@ -8,5 +8,17 @@ let b = parseInt(prompt("Digite o número: "));
 let c = parseInt(prompt("Digite o número: "));
 
 if (a == b & b == c){
-    console.lo
+    console.log("O Triângulo é Equilátero")
+}
+else if ( a == b & a != c){
+    console.log("O Triângulo é Isóseles")
+}
+else if ( b == c & b != a){
+    console.log("O Triângulo é Isóseles")
+}
+else if ( c == a & c != b){
+    console.log("O Triângulo é Isóseles")
+}
+else if(c!=a & a!=b){
+    console.log("O Triângulo é Escaleno")
 }
